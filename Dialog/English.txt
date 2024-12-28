@@ -27,7 +27,9 @@ FWGSSC_1_Lobby_15_volan= Shelltacular
 
 FWGSSC_1_Lobby_1_tntgobang_author= From Tnt_go_bang // To jftyjghj
 FWGSSC_1_Lobby_1_tntgobang_collabcredits=
-Placeholder
+Music: Sepia Tone Laboratory - Lifeformed
+Playtesting: Apeirocell
+Assets: Spooooky, xolimono, PowerAV
 
 FWGSSC_1_Lobby_2_barndles_author= From Barndles // To Kit
 FWGSSC_1_Lobby_2_barndles_collabcredits=
@@ -38,7 +40,9 @@ Playtesting: Apeirocell, Spooooky
 
 FWGSSC_1_Lobby_3_cookie_author= From Cookie // To Tnt_go_bang
 FWGSSC_1_Lobby_3_cookie_collabcredits=
-Playtesting: ravenJB
+Music: Crystal Peak - Christopher Larkin
+Playtesting: ravenJB, Random Name
+Assets: Spooooky
 
 FWGSSC_1_Lobby_4_dragon512_author= From Dragon512 // To schnippi
 FWGSSC_1_Lobby_4_dragon512_collabcredits=
