@@ -1,0 +1,138 @@
+﻿<Data>
+
+  <!-- DEFAULT TILES -->
+  <!-- ~~~~~~~~~~~~~ -->
+
+  <Tileset id="z" path="template">
+
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="4,5;4,6;4,7;4,8;4,9;4,10;4,11;4,12;4,13;4,14;5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+    <set mask="center" tiles="4,5;4,6;4,7;4,8;4,9;4,10;4,11;4,12;4,13;4,14;5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+
+  <Tileset id="1" copy="z" path="bgDirt" ignores="a"/>
+  <Tileset id="2" copy="z" path="bgBrick"/>
+  <Tileset id="3" copy="z" path="bgBrickRuined"/>
+
+  <Tileset id="4" path="bgWood">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="000-111-011" tiles="4,9"/>
+    <set mask="000-111-110" tiles="4,8"/>
+    <set mask="011-111-000" tiles="4,10"/>
+    <set mask="110-111-000" tiles="4,11"/>
+    <set mask="010-110-110" tiles="4,8"/>
+    <set mask="010-011-011" tiles="4,9"/>
+    <set mask="110-110-010" tiles="4,10"/>
+    <set mask="011-011-010" tiles="4,11"/>
+    <set mask="111-011-010" tiles="4,10"/>
+    <set mask="111-110-010" tiles="4,11"/>
+    <set mask="010-011-111" tiles="4,9"/>
+    <set mask="010-110-111" tiles="4,8"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+    <set mask="center" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+
+  <Tileset id="5" path="bgResortStone">
+    <set mask="xxx-x1x-xxx" tiles="0,0;1,0;2,0;3,0;4,0;5,0;0,1;1,1;2,1;3,1;4,1;5,1"/>
+    <set mask="padding" tiles="0,0;1,0;2,0;3,0;4,0;5,0;0,1;1,1;2,1;3,1;4,1;5,1"/>
+    <set mask="center" tiles="0,0;1,0;2,0;3,0;4,0;5,0;0,1;1,1;2,1;3,1;4,1;5,1"/>
+  </Tileset>
+  
+  <Tileset id="6" copy="z" path="bgCliffside"/>
+
+  <Tileset id="7" path="bgPool">
+    <set mask="xxx-x1x-xxx" tiles="5,0;5,1;5,2;5,3;0,0;1,0;2,0;3,0;0,1;1,1;2,1;3,1"/>
+    
+    <set mask="x1x-011-00x" tiles="0,2"/>
+    <set mask="x1x-110-x00" tiles="1,2"/>
+    <set mask="00x-011-x1x" tiles="2,2"/>
+    <set mask="x00-110-x1x" tiles="3,2"/>
+    
+    <set mask="x0x-x1x-x1x" tiles="4,0"/>
+    <set mask="x1x-x1x-x0x" tiles="4,1"/>
+    <set mask="xxx-110-xxx" tiles="4,2"/>
+    <set mask="xxx-011-xxx" tiles="4,3"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;0,0;1,0;2,0;3,0;0,1;1,1;2,1;3,1"/>
+    <set mask="center" tiles="5,0;5,1;5,2;5,3;0,0;1,0;2,0;3,0;0,1;1,1;2,1;3,1"/>
+  </Tileset>
+
+
+  <Tileset id="8" copy="z" path="bgTempleA"/>
+  <Tileset id="9" copy="z" path="bgTempleB"/>
+  <Tileset id="a" copy="z" path="bgReflection"/>
+  <Tileset id="b" copy="z" path="bgSnow"/>
+  <Tileset id="c" copy="z" path="bgSummit"/>
+  <Tileset id="d" copy="z" path="bgCore"/>
+  <Tileset id="e" copy="z" path="bgLostLevels"/>
+
+</Data>

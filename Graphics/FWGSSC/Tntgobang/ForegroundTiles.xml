@@ -1,0 +1,312 @@
+﻿<Data>
+	 <!--
+    Copy-paste this at the top of your tilesets .xml
+    so that it sits next to the vanilla template (z).
+    Reminder: Make sure to place the .xml into a subfolder
+    and to properly set the tilesets filepath in Ahorn / Lönn.
+    Also, set sound= a number from https://gist.github.com/0x0ade/2efb9532f7dc1a11daffd4dae78f07b3 
+    Instead of making your custom tilesets copy z (vanilla layout),
+    make them copy y (this layout) instead.
+    Template image file: https://i.imgur.com/jUq838l.png
+  -->
+  <Tileset id="y" path="subfolder/betterTemplate">
+    <!-- edges -->
+    <!-- top -->
+    <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+    <!-- bottom -->
+    <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+    <!-- left -->
+    <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+    <!-- right -->
+    <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+
+    <!-- h pillar == -->
+    <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+    <!-- v pillar left -->
+    <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+    <!-- v pillar right -->
+    <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+
+    <!-- v pillar || -->
+    <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+    <!-- v pillar top -->
+    <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+    <!-- v pillar bottom -->
+    <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+
+    <!-- single tiles -->
+    <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+
+    <!-- corner top left -->
+    <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+    <!-- corner top right -->
+    <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+    <!-- corner bottom left -->
+    <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+    <!-- corner bottom right -->
+    <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+    
+    <!-- inside corner top left -->
+    <set mask="111-111-110" tiles="1,3"/>
+    <!-- inside corner bottom left -->
+    <set mask="110-111-111" tiles="1,4"/>
+    <!-- inside corner top right -->
+    <set mask="111-111-011" tiles="2,3"/>
+    <!-- inside corner bottom right -->
+    <set mask="011-111-111" tiles="2,4"/>
+
+    <!-- |== -->
+    <set mask="110-111-110" tiles="11,7"/>
+    <!-- _||_ -->
+    <set mask="010-111-111" tiles="7,4"/>
+    <!-- ==| -->
+    <set mask="011-111-011" tiles="4,7"/>
+    <!-- T||T -->
+    <set mask="111-111-010" tiles="7,11"/>
+
+    <!-- ???? -->
+    <set mask="010-111-110" tiles="3,2"/>
+    <!-- ???? -->
+    <set mask="010-111-011" tiles="4,2"/>
+    <!-- ???? -->
+    <set mask="011-111-010" tiles="4,1"/>
+    <!-- ???? -->
+    <set mask="110-111-010" tiles="3,1"/>
+    <!-- ???? -->
+    <set mask="010-111-010" tiles="3,3"/>
+    <!-- ???? -->
+    <set mask="110-111-011" tiles="3,4"/>
+    <!-- ???? -->
+    <set mask="011-111-110" tiles="4,3"/>
+
+    <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+    <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+  <!--
+  
+	id: tileset-id
+	path: path to texture
+	copy: uses data of the given tileset-id but with the new texture
+	ignores: list of tiles this tileset doesn't consider solid when doing checks (* for all)
+    mask:
+		0: empty
+		1: solid
+		x: any (wildcard)
+	tiles: list of tiles that the current one could be
+	sprites: additional sprites to overlay
+	
+  -->
+	
+  <!-- DEFAULT TILES -->
+  <!-- ~~~~~~~~~~~~~ -->
+
+  <Tileset id="z" path="template">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+    
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11"/>
+    <set mask="center" tiles="5,12"/>
+  </Tileset>
+  
+  <Tileset id="1" copy="z" path="dirt" ignores="g"/>
+  <Tileset id="3" copy="z" path="snow"/>
+  <Tileset id="4" copy="z" path="girder"/>
+  <Tileset id="5" copy="z" path="tower" ignores= "L"/>
+  <Tileset id="6" copy="z" path="stone"/>
+  <Tileset id="7" copy="z" path="cement"/>
+  <Tileset id="8" copy="z" path="rock"/>
+  
+  <Tileset id="9" path="wood" ignores="L">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+    <set mask="center" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+  
+  <Tileset id="a" copy="9" path="woodStoneEdges"/>
+  <Tileset id="b" copy="z" path="cliffside" ignores="L"/>
+  <Tileset id="c" copy="9" path="poolEdges"/>
+
+  <Tileset id="d" copy="z" path="templeA"/>
+  <Tileset id="e" copy="z" path="templeB"/>
+  <Tileset id="f" copy="z" path="cliffsideAlt" ignores="L"/>
+
+  <Tileset id="g" copy="z" path="reflection" ignores="L">
+    <set mask="center" tiles="5,12;5,13;5,14"/>
+  </Tileset>
+
+  <Tileset id="G" copy="z" path="reflectionAlt">
+	<set mask="center" tiles="5,12;5,13;5,14"/>
+  </Tileset>
+	
+  <Tileset id="h" path="grass" ignores="*">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0" sprites="grass_top_a"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11" sprites="grass_top_a"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12" sprites="grass_top_a"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+    
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11"/>
+    <set mask="center" tiles="5,12"/>
+  </Tileset>
+  
+	<Tileset id="i" copy="z" path="summit" ignores= "L">
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5"/>
+    <set mask="center" tiles="5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+
+  <Tileset id="j" copy="z" path="summitNoSnow">
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5"/>
+    <set mask="center" tiles="5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+	
+  <Tileset id="m" copy="z" path="lostlevels" ignores="n,L">
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5"/>
+    <set mask="center" tiles="5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,7;5,8;5,9;5,10;5,11;5,13;5,14;5,7;5,8;5,9;5,10;5,11;5,13;5,14;5,12"/>
+  </Tileset>
+	
+  <Tileset id="k" copy="z" path="core" ignores="L"/>
+  <Tileset id="l" path="deadgrass" ignores="*">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0" sprites="dead_top_a"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11" sprites="dead_top_a"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12" sprites="dead_top_a"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+    
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11"/>
+    <set mask="center" tiles="5,12"/>
+  </Tileset>
+
+  <Tileset id="n" copy="z" path="scifi" ignores="L"/>
+
+ 
+
+
+
+    <Tileset id="ߪ" copy="z" path="FWGSSC/Tntgobang/Av_sand"/>
+
+
+</Data>

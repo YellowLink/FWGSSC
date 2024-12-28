@@ -1,0 +1,100 @@
+- Name: FWGSSC
+  Version: 0.1.0
+  DLL: Code/FWGSSC.dll
+  Dependencies:
+    - Name: AdventureHelper
+      Version: 1.5.8
+    - Name: Anonhelper
+      Version: 1.1.1
+    - Name: ArphimigonsToyBox
+      Version: 1.3.11
+    - Name: AurorasHelper
+      Version: 0.12.2
+    - Name: bitsbolts
+      Version: 1.3.6
+    - Name: BounceHelper
+      Version: 1.11.0
+    - Name: BrokemiaHelper
+      Version: 1.8.2
+    - Name: CavernHelper
+      Version: 1.3.7
+    - Name: CherryHelper
+      Version: 1.7.3
+    - Name: ChroniaHelper
+      Version: 1.25.13
+    - Name: ChronoHelper
+      Version: 1.2.2
+    - Name: CollabUtils2
+      Version: 1.10.14
+    - Name: CommunalHelper
+      Version: 1.20.6
+    - Name: ContortHelper
+      Version: 1.5.5
+    - Name: CpopHelper
+      Version: 1.3.0
+    - Name: CrystallineHelper
+      Version: 1.16.4
+    - Name: DJMapHelper
+      Version: 1.13.4
+    - Name: EeveeHelper
+      Version: 1.11.2
+    - Name: Everest
+      Version: 1.5184.0
+    - Name: ExtendedVariantMode
+      Version: 0.39.7
+    - Name: FemtoHelper
+      Version: 1.12.13
+    - Name: FlaglinesAndSuch
+      Version: 1.6.29
+    - Name: FrostHelper
+      Version: 1.63.0
+    - Name: GravityHelper
+      Version: 1.2.16
+    - Name: HonlyHelper
+      Version: 1.7.5
+    - Name: IsaGrabBag
+      Version: 1.6.14
+    - Name: JackalHelper
+      Version: 1.6.8
+    - Name: JungleHelper
+      Version: 1.3.3
+    - Name: LuaCutscenes
+      Version: 0.2.13
+    - Name: LunaticHelper
+      Version: 1.1.1
+    - Name: LylyraHelper
+      Version: 1.3.13
+    - Name: MaxHelpingHand
+      Version: 1.33.6
+    - Name: Microlith57MiscellaneousMechanics
+      Version: 1.1.0
+    - Name: NerdHelper
+      Version: 1.4.0
+    - Name: OutbackHelper
+      Version: 1.7.3
+    - Name: PandorasBox
+      Version: 1.0.49
+    - Name: PrismaticHelper
+      Version: 1.12.0
+    - Name: ProgHelper
+      Version: 1.3.0
+    - Name: Sardine7
+      Version: 1.2.0
+    - Name: ShroomHelper
+      Version: 1.2.8
+    - Name: SnowyAssortedItems
+      Version: 0.2.0
+    - Name: SorbetHelper
+      Version: 1.5.1
+    - Name: Spooooky's Asset Pack
+      Version: 1.0.9
+    - Name: StyleMaskHelper
+      Version: 1.3.3
+    - Name: VivHelper
+      Version: 1.14.8
+    - Name: VortexHelper
+      Version: 1.2.16
+    - Name: XaphanHelper
+      Version: 1.0.63
+    - Name: YetAnotherHelper
+      Version: 1.2.5

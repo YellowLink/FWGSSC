@@ -1,0 +1,3 @@
+function onStay()
+    disableMovement()
+end

@@ -1,0 +1,2234 @@
+﻿<Data>	
+  <!--
+  
+	id: tileset-id
+	path: path to texture
+	copy: uses data of the given tileset-id but with the new texture
+	ignores: list of tiles this tileset doesn't consider solid when doing checks (* for all)
+    mask:
+		0: empty
+		1: solid
+		x: any (wildcard)
+	tiles: list of tiles that the current one could be
+	sprites: additional sprites to overlay
+	
+  -->
+	
+  <!-- DEFAULT TILES -->
+  <!-- ~~~~~~~~~~~~~ -->
+
+  <Tileset id="z" path="template">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+    
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11"/>
+    <set mask="center" tiles="5,12"/>
+  </Tileset>
+  
+  <Tileset id="1" copy="z" path="dirt" ignores="g"/>
+  <Tileset id="3" copy="z" path="snow"/>
+  <Tileset id="4" copy="z" path="girder"/>
+  <Tileset id="5" copy="z" path="tower"/>
+  <Tileset id="6" copy="z" path="stone"/>
+  <Tileset id="7" copy="z" path="cement"/>
+  <Tileset id="8" copy="z" path="rock"/>
+  
+  <Tileset id="9" path="wood">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+    <set mask="center" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+  
+  <Tileset id="a" copy="9" path="woodStoneEdges"/>
+  <Tileset id="b" copy="z" path="cliffside"/>
+  <Tileset id="c" copy="9" path="poolEdges"/>
+
+  <Tileset id="d" copy="z" path="templeA"/>
+  <Tileset id="e" copy="z" path="templeB"/>
+  <Tileset id="f" copy="z" path="cliffsideAlt"/>
+
+  <Tileset id="g" copy="z" path="reflection">
+    <set mask="center" tiles="5,12;5,13;5,14"/>
+  </Tileset>
+
+  <Tileset id="G" copy="z" path="reflectionAlt">
+	<set mask="center" tiles="5,12;5,13;5,14"/>
+  </Tileset>
+	
+  <Tileset id="h" path="grass" ignores="*">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0" sprites="grass_top_a"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11" sprites="grass_top_a"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12" sprites="grass_top_a"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+    
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11"/>
+    <set mask="center" tiles="5,12"/>
+  </Tileset>
+  
+	<Tileset id="i" copy="z" path="summit">
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5"/>
+    <set mask="center" tiles="5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+
+  <Tileset id="j" copy="z" path="summitNoSnow">
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5"/>
+    <set mask="center" tiles="5,6;5,7;5,8;5,9;5,10;5,11;5,12;5,13;5,14"/>
+  </Tileset>
+	
+  <Tileset id="m" copy="z" path="lostlevels" ignores="n">
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5"/>
+    <set mask="center" tiles="5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,6;5,7;5,8;5,9;5,10;5,11;5,13;5,14;5,7;5,8;5,9;5,10;5,11;5,13;5,14;5,12"/>
+  </Tileset>
+	
+  <Tileset id="k" copy="z" path="core"/>
+  <Tileset id="l" path="deadgrass" ignores="*">
+    <set mask="x0x-111-x1x" tiles="0,0;1,0;2,0;3,0" sprites="dead_top_a"/>
+    <set mask="x1x-111-x0x" tiles="0,1;1,1;2,1;3,1"/>
+    <set mask="x1x-011-x1x" tiles="0,2;1,2;2,2;3,2"/>
+    <set mask="x1x-110-x1x" tiles="0,3;1,3;2,3;3,3"/>
+
+    <set mask="x0x-111-x0x" tiles="0,4;1,4;2,4;3,4"/>
+    <set mask="x1x-010-x1x" tiles="0,5;1,5;2,5;3,5"/>
+    <set mask="x0x-010-x1x" tiles="0,6;1,6;2,6;3,6"/>
+    <set mask="x1x-010-x0x" tiles="0,7;1,7;2,7;3,7"/>
+    <set mask="x0x-011-x0x" tiles="0,8;1,8;2,8;3,8"/>
+    <set mask="x0x-110-x0x" tiles="0,9;1,9;2,9;3,9"/>
+    <set mask="x0x-010-x0x" tiles="0,10;1,10;2,10;3,10"/>
+    <set mask="x0x-011-x1x" tiles="0,11;1,11;2,11;3,11" sprites="dead_top_a"/>
+    <set mask="x0x-110-x1x" tiles="0,12;1,12;2,12;3,12" sprites="dead_top_a"/>
+    <set mask="x1x-011-x0x" tiles="0,13;1,13;2,13;3,13"/>
+    <set mask="x1x-110-x0x" tiles="0,14;1,14;2,14;3,14"/>
+    
+    <set mask="111-111-110" tiles="4,0"/>
+    <set mask="110-111-111" tiles="4,1"/>
+    <set mask="111-111-011" tiles="4,2"/>
+    <set mask="011-111-111" tiles="4,3"/>
+
+    <set mask="110-111-110" tiles="4,4"/>
+    <set mask="010-111-111" tiles="4,5"/>
+    <set mask="011-111-011" tiles="4,6"/>
+    <set mask="111-111-010" tiles="4,7"/>
+
+    <set mask="010-111-110" tiles="4,8"/>
+    <set mask="010-111-011" tiles="4,9"/>
+    <set mask="011-111-010" tiles="4,10"/>
+    <set mask="110-111-010" tiles="4,11"/>
+    <set mask="010-111-010" tiles="4,12"/>
+    <set mask="110-111-011" tiles="4,13"/>
+    <set mask="011-111-110" tiles="4,14"/>
+
+    <set mask="padding" tiles="5,0;5,1;5,2;5,3;5,4;5,5;5,6;5,7;5,8;5,9;5,10;5,11"/>
+    <set mask="center" tiles="5,12"/>
+  </Tileset>
+
+  <Tileset id="n" copy="z" path="scifi"/>
+
+  <Tileset id="A" path="FWGSSC/ravenJB/Spooooky_Basalt" sound="37">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="B" path="FWGSSC/ravenJB/Spooooky_ButternutDirtNoGrass" sound="3">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="C" path="FWGSSC/ravenJB/Spooooky_ButternutBrick" sound="8">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="D" path="FWGSSC/ravenJB/Spooooky_ButternutDirt" sound="3">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="E" path="FWGSSC/ravenJB/Spooooky_ButternutWood" sound="13">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="F" path="FWGSSC/ravenJB/Spooooky_DarkRock" sound="37">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="H" path="FWGSSC/ravenJB/Spooooky_DarkRockVines" sound="37">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="I" path="FWGSSC/ravenJB/Spooooky_EcoFuture" sound="42">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="J" path="FWGSSC/ravenJB/Spooooky_EcoFutureDark" sound="42">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="K" path="FWGSSC/ravenJB/Spooooky_FadedBrickBlue" sound="8">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="L" path="FWGSSC/ravenJB/Spooooky_FadedBrickGrey" sound="8">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="M" path="FWGSSC/ravenJB/Spooooky_FadedBrickRed" sound="8">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="N" path="FWGSSC/ravenJB/Spooooky_FadedBrickYellow" sound="8">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="O" path="FWGSSC/ravenJB/Spooooky_LumpyCement" sound="37">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="P" path="FWGSSC/ravenJB/Spooooky_PaleLimestone" sound="44">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="Q" path="FWGSSC/ravenJB/Spooooky_Rock" sound="37">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="R" path="FWGSSC/ravenJB/Spooooky_RockVines" sound="37">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="S" path="FWGSSC/ravenJB/Spooooky_RockyMud" sound="3">
+    <!-- edge -->
+      <!-- top edge -->
+      <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+      <!-- bottom edge -->
+      <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+      <!-- left edge -->
+      <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+      <!-- right edge -->
+      <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+      <!-- top edge with right inside corner -->
+      <set mask="x0x-111-110" tiles="1,10"/>
+      <!-- top edge with left inside corner -->
+      <set mask="x0x-111-011" tiles="2,10"/>
+      <!-- bottom edge with right inside corner -->
+      <set mask="110-111-x0x" tiles="1,11"/>
+      <!-- bottom edge with left inside corner -->
+      <set mask="011-111-x0x" tiles="2,11"/>
+      <!-- left edge with bottom inside corner -->
+      <set mask="x11-011-x10" tiles="10,1"/>
+      <!-- left edge with top inside corner -->
+      <set mask="x10-011-x11" tiles="10,2"/>
+      <!-- right edge with bottom inside corner -->
+      <set mask="11x-110-01x" tiles="11,1"/>
+      <!-- right edge with top inside corner -->
+      <set mask="01x-110-11x" tiles="11,2"/>
+      <!-- top edge with bottom left and bottom right inner corners -->
+      <set mask="x0x-111-010" tiles="8,11"/>
+      <!-- bottom edge with top left and top right inner corners -->
+      <set mask="010-111-x0x" tiles="8,4"/>
+      <!-- right edge with top left and bottom left inner corners -->
+      <set mask="01x-110-01x" tiles="4,8"/>
+      <!-- left edge with top right and bottom right inner corners -->
+      <set mask="x10-011-x10" tiles="11,8"/>
+    <!-- horizontal pillar === -->
+      <!-- horizontal pillar left -->
+      <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+      <!-- horizontal pillar centre -->
+      <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+      <!-- horizontal pillar right -->
+      <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+    <!-- vertical pillar || -->
+      <!-- vertical pillar top -->
+      <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+      <!-- vertical pillar centre -->
+      <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+      <!-- vertical pillar bottom -->
+      <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+    <!-- single tiles -->
+      <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+    <!-- outer corners -->
+      <!-- corner top left -->
+      <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+      <!-- corner top right -->
+      <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+      <!-- corner bottom left -->
+      <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+      <!-- corner bottom right -->
+      <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+      <!-- corner top left with inside -->
+      <set mask="x0x-011-x10" tiles="6,4"/>
+      <!-- corner top right with inside -->
+      <set mask="x0x-110-01x" tiles="9,4"/>
+      <!-- corner bottom left with inside -->
+      <set mask="x10-011-x0x" tiles="6,11"/>
+      <!-- corner bottom right with inside -->
+      <set mask="01x-110-x0x" tiles="9,11"/>
+    <!-- inner corners -->
+      <!-- single inner corners -->
+        <!-- bottom right inner corner -->
+        <set mask="111-111-110" tiles="1,3"/>
+        <!-- bottom left inner corner -->
+        <set mask="111-111-011" tiles="2,3"/>
+        <!-- top right inner corner -->
+        <set mask="110-111-111" tiles="1,4"/>
+        <!-- top left inner corner -->
+        <set mask="011-111-111" tiles="2,4"/>
+      <!-- double inner corners -->
+        <!-- top left, top right inner corners -->
+        <set mask="010-111-111" tiles="7,4"/>
+        <!-- top right, bottom right inner corners -->
+        <set mask="110-111-110" tiles="11,7"/>
+        <!-- bottom left, bottom right inner corners -->
+        <set mask="111-111-010" tiles="7,11"/>
+        <!-- top left, bottom left inner corners -->
+        <set mask="011-111-011" tiles="4,7"/>
+        <!-- top left, bottom right inner corner -->
+        <set mask="011-111-110" tiles="4,3"/>
+        <!-- top right, bottom left inner corner -->
+        <set mask="110-111-011" tiles="3,4"/>
+      <!-- triple inner corners -->
+        <!-- top right, bottom left, bottom right inner corner -->
+        <set mask="110-111-010" tiles="3,1"/>
+        <!-- top left, bottom left, bottom right inner corner -->
+        <set mask="011-111-010" tiles="4,1"/>
+        <!-- top left, top right, bottom right inner corner -->
+        <set mask="010-111-110" tiles="3,2"/>
+        <!-- top left, top right, bottom left inner corner -->
+        <set mask="010-111-011" tiles="4,2"/>
+      <!-- all inner corners -->
+        <set mask="010-111-010" tiles="3,3"/>
+    <!-- padding and center tiles -->
+      <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+      <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+ <Tileset id="y" path="subfolder/betterTemplate">
+    <!-- edges -->
+    <!-- top -->
+    <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>
+    <!-- bottom -->
+    <set mask="x1x-111-x0x" tiles="6,10; 7,10; 8,10; 9,10"/>
+    <!-- left -->
+    <set mask="x1x-011-x1x" tiles="5,6; 5,7; 5,8; 5,9"/>
+    <!-- right -->
+    <set mask="x1x-110-x1x" tiles="10,6; 10,7; 10,8; 10,9"/>
+
+    <!-- h pillar == -->
+    <set mask="x0x-111-x0x" tiles="2,6; 2,7; 2,8; 2,9"/>
+    <!-- v pillar left -->
+    <set mask="x0x-011-x0x" tiles="1,6; 1,7; 1,8; 1,9"/>
+    <!-- v pillar right -->
+    <set mask="x0x-110-x0x" tiles="3,6; 3,7; 3,8; 3,9"/>
+
+    <!-- v pillar || -->
+    <set mask="x1x-010-x1x" tiles="6,2; 7,2; 8,2; 9,2"/>
+    <!-- v pillar top -->
+    <set mask="x0x-010-x1x" tiles="6,1; 7,1; 8,1; 9,1"/>
+    <!-- v pillar bottom -->
+    <set mask="x1x-010-x0x" tiles="6,3; 7,3; 8,3; 9,3"/>
+
+    <!-- single tiles -->
+    <set mask="x0x-010-x0x" tiles="1,1; 2,1; 1,2; 2,2"/>
+
+    <!-- corner top left -->
+    <set mask="x0x-011-x1x" tiles="4,4; 5,4; 4,5; 5,5"/>
+    <!-- corner top right -->
+    <set mask="x0x-110-x1x" tiles="10,4; 11,4; 10,5; 11,5"/>
+    <!-- corner bottom left -->
+    <set mask="x1x-011-x0x" tiles="4,10; 5,10; 4,11; 5,11"/>
+    <!-- corner bottom right -->
+    <set mask="x1x-110-x0x" tiles="10,10; 11,10; 10,11; 11,11"/>
+    
+    <!-- inside corner top left -->
+    <set mask="111-111-110" tiles="1,3"/>
+    <!-- inside corner bottom left -->
+    <set mask="110-111-111" tiles="1,4"/>
+    <!-- inside corner top right -->
+    <set mask="111-111-011" tiles="2,3"/>
+    <!-- inside corner bottom right -->
+    <set mask="011-111-111" tiles="2,4"/>
+
+    <!-- |== -->
+    <set mask="110-111-110" tiles="11,7"/>
+    <!-- _||_ -->
+    <set mask="010-111-111" tiles="7,4"/>
+    <!-- ==| -->
+    <set mask="011-111-011" tiles="4,7"/>
+    <!-- T||T -->
+    <set mask="111-111-010" tiles="7,11"/>
+
+    <!-- ???? -->
+    <set mask="010-111-110" tiles="3,2"/>
+    <!-- ???? -->
+    <set mask="010-111-011" tiles="4,2"/>
+    <!-- ???? -->
+    <set mask="011-111-010" tiles="4,1"/>
+    <!-- ???? -->
+    <set mask="110-111-010" tiles="3,1"/>
+    <!-- ???? -->
+    <set mask="010-111-010" tiles="3,3"/>
+    <!-- ???? -->
+    <set mask="110-111-011" tiles="3,4"/>
+    <!-- ???? -->
+    <set mask="011-111-110" tiles="4,3"/>
+
+    <set mask="padding" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+    <set mask="center" tiles="7,7; 8,7; 7,8; 8,8"/>
+  </Tileset>
+
+  <Tileset id="T" copy="y" path="FWGSSC/ravenJB/cozy_limestone_grassy" sound="8">
+      <set mask="padding" tiles="7,7; 8,7; 7,8; 8,8"/>
+      <set mask="center" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+  </Tileset>
+
+  <Tileset id="U" copy="y" path="FWGSSC/ravenJB/cozy_grass_dead" sound="8">
+      <set mask="padding" tiles="7,7; 8,7; 7,8; 8,8"/>
+      <set mask="center" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+  </Tileset>
+
+  <Tileset id="V" copy="y" path="FWGSSC/ravenJB/cozy_cobblestone" ignores="T,U,W,X,Z" sound="8">
+      <set mask="padding" tiles="7,7; 8,7; 7,8; 8,8"/>
+      <set mask="center" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+  </Tileset>
+
+  <Tileset id="W" copy="y" path="FWGSSC/ravenJB/cozy_grass_dead_old" ignores="T,U,V,X,Z" sound="8">
+      <set mask="padding" tiles="7,7; 8,7; 7,8; 8,8"/>
+      <set mask="center" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+  </Tileset>
+
+  <Tileset id="X" copy="y" path="FWGSSC/ravenJB/cozy_cobblestone_greener" ignores="T,U,V,W,Z" sound="8">
+      <set mask="padding" tiles="7,7; 8,7; 7,8; 8,8"/>
+      <set mask="center" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+  </Tileset>
+
+  <Tileset id="Z" copy="y" path="FWGSSC/ravenJB/cozy_cobblestone_oranger" ignores="T,U,V,W,X" sound="8">
+      <set mask="padding" tiles="7,7; 8,7; 7,8; 8,8"/>
+      <set mask="center" tiles="6,6; 7,6; 8,6; 9,6;  6,7; 6,8; 6,9;  9,7; 9,8; 9,9;  7,9; 8,9"/>
+  </Tileset>
+
+</Data>

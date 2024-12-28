@@ -1,0 +1,2 @@
+{e42d94dd-3da8-467a-9962-e93deee80f86} event:/FWGSSC_barndles_Music
+{94e90d47-9016-4a9d-a8cc-dd1fdcab4d18} bank:/FWGSSC_barndles

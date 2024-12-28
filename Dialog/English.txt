@@ -1,0 +1,1215 @@
+### MAIN META ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FWGSSC= FWG Secret Santa
+FWGSSC_0_Lobbies= FWGSSC
+FWGSSC_0_Lobbies_1_Lobby= FWGSSC Lobby
+endscreen_collabname_FWGSSC= FWGTC Secret Santa Collab
+endscreen_FWGSSC_FWGSSC= FWGTC Secret Santa Collab
+FWGSSC_OVERWORLD_NORMAL=	Begin
+
+### MAP META ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FWGSSC_1_Lobby_1_tntgobang= Thermal Burst
+FWGSSC_1_Lobby_2_barndles= Bubblegum Breezeway
+FWGSSC_1_Lobby_3_cookie= Onyx
+FWGSSC_1_Lobby_4_dragon512= Abandoned, Neglected, and Left to Ruin
+FWGSSC_1_Lobby_5_jftyjghj= Blackhole City
+FWGSSC_1_Lobby_6_kit= Tinted Grotto
+FWGSSC_1_Lobby_7_cameronc= Sunken Sun
+FWGSSC_1_Lobby_8_apeirocell= Cap'n Cump's: Oops! All Routing Puzzles
+FWGSSC_1_Lobby_9_ravenjb= The Fallen Leaves Tell a Story
+FWGSSC_1_Lobby_10_schnippi= GLORY
+FWGSSC_1_Lobby_11_smileygrene= Catfish Cove
+FWGSSC_1_Lobby_12_smiley= An Adorable American Akita's Amazing Aerial Adventure
+FWGSSC_1_Lobby_13_spooooky= Backstreets of Neo Caladrius
+FWGSSC_1_Lobby_14_theegoober= Late Night in Autumn/Chinese Remainder Theorem
+FWGSSC_1_Lobby_15_volan= Shelltacular
+
+FWGSSC_1_Lobby_1_tntgobang_author= From Tnt_go_bang // To jftyjghj
+FWGSSC_1_Lobby_1_tntgobang_collabcredits=
+Placeholder
+
+FWGSSC_1_Lobby_2_barndles_author= From Barndles // To Kit
+FWGSSC_1_Lobby_2_barndles_collabcredits=
+Music: Humming the Bassline - Hideki Naganuma
+Guest Room: Apeirocell
+Deco: Spooooky
+Playtesting: Apeirocell, Spooooky
+
+FWGSSC_1_Lobby_3_cookie_author= From Cookie // To Tnt_go_bang
+FWGSSC_1_Lobby_3_cookie_collabcredits=
+Playtesting: ravenJB
+
+FWGSSC_1_Lobby_4_dragon512_author= From Dragon512 // To schnippi
+FWGSSC_1_Lobby_4_dragon512_collabcredits=
+Placeholder
+
+FWGSSC_1_Lobby_5_jftyjghj_author= From jftyjghj // To CameronC
+FWGSSC_1_Lobby_5_jftyjghj_collabcredits=
+Placeholder
+
+FWGSSC_1_Lobby_6_kit_author= From Kit // To Cookie
+FWGSSC_1_Lobby_6_kit_collabcredits=
+Music: Dim Hideout (Momodora III OST) - Elektrobear
+Playtesting: YellowLink, Spooooky
+Assets: Spooooky
+Inspiration: microbiome, Fractured Iridescence
+
+FWGSSC_1_Lobby_7_cameronc_author= From CameronC // To :D
+FWGSSC_1_Lobby_7_cameronc_collabcredits=
+Music: Sunken Sun - CameronC // Cave Ambience - CameronC
+Playtesters: :D, Kit
+Assets: Yoshachobi7, Juno
+
+FWGSSC_1_Lobby_8_apeirocell_author= From Apeirocell // To ravenJB
+FWGSSC_1_Lobby_8_apeirocell_collabcredits=
+Music: summer party 3019 - In Love With a ghost
+Deco: Spooooky
+Assets: Spooooky, TheSecondLord, ABuffZucchini
+Playtesting: schnippi, jftyjghj, ravenJB, Kit
+
+FWGSSC_1_Lobby_9_ravenjb_author= From ravenJB // To Barndles
+FWGSSC_1_Lobby_9_ravenjb_collabcredits=
+Placeholder
+
+FWGSSC_1_Lobby_10_schnippi_author= From schnippi // To Apeirocell
+FWGSSC_1_Lobby_10_schnippi_collabcredits=
+Music: Guts - Hakita // Glory - Hakita
+Playtesting: Magician Steve, Volan, Kit
+Assets: TheAdvertisement, Sapphire_Xer0
+
+FWGSSC_1_Lobby_11_smileygrene_author= From :D // To Dumpling
+FWGSSC_1_Lobby_11_smileygrene_collabcredits=
+Music: Pinna Park (Super Mario Sunshine OST) - Koji Kondo, Shinobu Tanaka
+Playtesting: ravenJB, Cookie, Tnt_go_bang, Dumpling
+Assets: Flagpole1Up, bryse0n, Nikki (Juno.)
+Special Thanks: YellowLink, PATXS
+
+FWGSSC_1_Lobby_12_smiley_author= From :D // To Spooooky
+FWGSSC_1_Lobby_12_smiley_collabcredits=
+Music: Frozen Factory (Zone 1) (Sonic Lost World OST) - Tomoya Ohtani
+Playtesting: Kit, Volan, YellowLink, jfty, CameronC, Spooooky
+Various Buffy-Related Assets: Spooooky
+Special Thanks: PATXS, YellowLink
+
+FWGSSC_1_Lobby_13_spooooky_author= From Spooooky // To Grene & :D
+FWGSSC_1_Lobby_13_spooooky_collabcredits=
+Music: JACK DA FUNK - Hideki Naganuma
+Playtesting: Kit, YellowLink
+Deco: Spooooky
+Assets: Spooooky
+Peter: Peter
+
+FWGSSC_1_Lobby_14_theegoober_author= From Dumpling, :D, & ravenJB // To Volan
+FWGSSC_1_Lobby_14_theegoober_collabcredits=
+Playtesting: ravenJB, :D, Volan
+Deco: Dumpling, Spooooky, :D
+
+FWGSSC_1_Lobby_15_volan_author= From Volan // To Dragon512
+FWGSSC_1_Lobby_15_volan_collabcredits=
+Music: Staff Roll (New Super Mario Bros) - Asuka Ohta, Hajime Wakai, Koji Kondo
+Playtesting: Kit, Dragon512
+Inspiration: Lava Layer
+
+### MAIN DIALOGUE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Lobby Dialogue ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+lobbyintro1=
+[MADELINE left normal] Woah! It's the legendary {~}{# 499b2a}Christmas Switch{#}{/~}
+{# 499b2a}This is probably going to be reskinned to look awesome in the future!{#}
+
+### MAP DIALOGUE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# The Fallen Leaves Tell a Story ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FWGSSC_ravenJB_Percy1_intro=
+[PERCY right nosy]
+Hiya! What are you doing here?
+[MADELINE left surprised]
+Hi, little kitty cat! What's your name?
+[PERCY right posing]
+Great question!
+You have the honor of talking to {~}{#decba0}Percy the Nimble{#}{/~}, the great explorer of the wilds and conqueror of scary mountain peaks!
+[PERCY right curious]
+So what are you doing here? Did you come to try my obstacle course?
+[MADELINE left normal]
+I'll just call you Percy, little kitty. I'm {#f94a4a}{savedata Name}{#}!
+I was hiking around, just sort of exploring the area. Is the obstacle course something you made?
+[PERCY right curious]
+Yeah! I made it to practice climbing, it's an entire trail!
+You should try it, I bet you're gonna like it!
+[MADELINE left sad]
+I don't know, I'm not that great at acrobatic stuff, I just like to hike.
+[MADELINE left determined]
+I guess I can try, little Percy!
+[MADELINE left peaceful]
+You're so cute that I can't refuse.
+[MADELINE left together]
+{#989898}(... god im a great liar, im gonna blow this kids mind with my platforming skills ...){#}
+[PERCY right focused]
+Okay, but it's gonna be really hard if you're new to this kind of stuff.
+The {#cf821f}fallen leaves{#} mark the correct path.
+I put all sorts of tricks in there!
+[]
+{#989898}{#cca318}Momentum boosters{#} are used to set up retention. You don't need to do an extra dash into them.{#}
+{#989898}All backboosts are intended to be done as late as possible. {2.0}deja vu?{#}
+[PERCY right focused]
+In fact, if you ever get stuck, just tell me and I'll show you the route!
+[]
+{#989898}When using a watchtower, press{#} {#c75938}Tab{#} {#989898}to activate a ghost playback of the room.{#}
+{#989898}This keybind can be changed in VivHelper settings.{#}
+[PERCY right lazy]
+Good luck! I'm gonna run ahead and meet you at the halfway point!
+Oh, and one more thing - I'm still working on some elements of the course, so maybe you can come back sometime and check out the polished version!
+[]
+{#989898}I'll draw a better Percy sprite, I promise :D{#}
+{#989898}You might be able to go too fast in one or two rooms, please don't.{#}
+
+FWGSSC_ravenJB_Percy1_repeat=
+[PERCY right sassy]
+You got this!
+[]
+{#989898}1. {#cca318}Momentum boosters{#} are used to set up retention. You don't need to do an extra dash into them.{#}
+{#989898}All backboosts are intended to be done as late as possible.{#}
+{#989898}2. When using a watchtower, press{#} {#c75938}Tab{#} {#989898}to activate a ghost playback of the room.{#}
+{#989898}This keybind can be changed in VivHelper settings.{#}
+{#989898}3. I'll draw a better Percy sprite, I promise :D{#}
+{#989898}You might be able to go too fast in one or two rooms, please don't.{#}
+
+FWGSSC_ravenJB_Percy2_intro=
+[PERCY right nosy]
+Oh hi! You must've gotten here through my obstacle course!
+[MADELINE left surprised]
+Hi, little kitty cat! What's your name?
+[PERCY right posing]
+Great question!
+You have the honor of talking to {~}{#decba0}Percy the Nimble{#}{/~}, the great explorer of the wilds and conqueror of scary mountain peaks!
+[PERCY right focused]
+You must be a great climber if you got this far into my course.
+[MADELINE left sad]
+Well, I guess I'm not the worst, little Percy. I'm {#f94a4a}{savedata Name}{#}, by the way.
+[MADELINE left normal]
+It's a great course! I had been hiking in this mountain forest when I came across it, and it's been really fun so far!
+[PERCY right curious]
+Thank you so much! I worked really hard on it.
+It's weird that I missed you at the trailhead, I was just there.
+I guess you're that fast...
+[MADELINE left determined]
+People tell me I'm pretty stealthy, maybe you just didn't notice me.
+[PERCY right curious]
+Wow, that's cool! I want to be as stealthy as you are.
+Anyway, good luck!
+For this next section I just recently got some {#2c9dc9}"parachutes"{#}.
+I hope you like it!
+[MADELINE left surprised]
+{#2c9dc9}Parachutes{#}???
+[PERCY right sassy]
+Don't worry, they're fun and you're definitely up for it.
+[PERCY right curious]
+Well, the next room is a bit funny, but I believe in you!
+
+
+FWGSSC_ravenJB_Percy2_dialog=
+[PERCY right nosy]
+Hey, you got through!
+I watched you, you were great!
+[PERCY right curious]
+How are you so good at climbing?
+[MADELINE left sad]
+Yeah, I've actually done a bit of climbing in my free time.
+[MADELINE left normal]
+I just thought it could be fun to trick you.
+[PERCY right nosy]
+Oh wow, you're good. I didn't even realize you were tricking me.
+[PERCY right normal]
+Anyway, for this next section I just recently got some {#2c9dc9}"parachutes"{#}.
+I hope you like it!
+[MADELINE left surprised]
+{#2c9dc9}Parachutes{#}???
+[PERCY right sassy]
+Don't worry, they're fun and you're definitely up for it.
+Well, the next room is a bit funny, but I believe in you!
+
+FWGSSC_ravenJB_Percy2_repeat=
+[PERCY right focused]
+{#989898}... maybe i shouldn't have opened this room to the public yet, its so sketchy ...{#}
+[PERCY right normal]
+Oh, you're still here?
+When you get to the end, try to find my secret hiding spot!
+It's right past the orange heart that marks the finish line - I'll be there.
+
+FWGSSC_ravenJB_Percy3_intro=
+[PERCY right focused]
+Oh! You scared me... No one usually finds my secret spot.
+[PERCY right normal]
+I'm {~}{#decba0}Percy{#}{/~}. Did you get here through my obstacle course?
+[MADELINE left sad]
+Hi, little kitty, I'm {#f94a4a}{savedata Name}{#}. Sorry for breaking into your secret place, I was just curious what's here.
+[PERCY right curious]
+Don't worry! Only a great climber would be able to get through my entire course!
+Did you enjoy it?
+[MADELINE left sad]
+Well, to be honest, some spots could use a little polish... or a lot, even.
+[MADELINE left normal]
+But I think I enjoyed it! You're a talented builder, little Percy!
+[PERCY right nosy]
+Thank you, {#f94a4a}Ms\. {savedata Name}{#}! I worked really hard on it.
+...{1.2} You're amazing, you know that?
+[MADELINE left peaceful]
+Aww, thank you, cutie.
+You're also amazing!
+
+FWGSSC_ravenJB_Percy3_dialog=
+[PERCY right normal]
+Oh, you got here!
+This place is actually pretty hard to find, I didn't expect you to do it.
+[MADELINE left normal]
+Yeah, this was definitely tricky, but I'm used to difficulty.
+The air is so fresh here. I guess we're pretty high up at this point?
+[PERCY right posing]
+Yeah, and isn't the view awesome?
+[MADELINE left normal]
+It's gorgeous, little Percy. You should be proud for building all this on your own.
+[PERCY right curious]
+Did you enjoy the course?
+[MADELINE left normal]
+Yeah, I think I enjoyed it a lot! You're a talented builder, little Percy!
+[PERCY right nosy]
+Thank you, {#f94a4a}Ms\. {savedata Name}{#}! I worked really hard on it.
+...{1.2} You're amazing, you know that?
+[MADELINE left peaceful]
+Aww, thank you, cutie.
+You're also amazing!
+
+FWGSSC_ravenJB_Percy3_repeat=
+[PERCY right focused]
+I guess I gotta go. My {~}{#decba0}mom{#}{/~} is probably getting worried by now.
+[MADELINE left normal]
+Do you live somewhere nearby?
+[PERCY right normal]
+Yeah, we live in a house right on the edge of town. It's probably where you came from to get here.
+[MADELINE left distracted]
+I shouldn't keep your mom waiting then.
+[MADELINE left normal]
+Say hello to her for me! She should be proud for raising such an awesome little kitty cat.
+[PERCY right lazy]
+Will do! Bye!
+
+
+FWGSSC_ravenJB_comf=
+[MADELINE left normal]
+comf!
+
+# Abandoned, Neglected, and Left to Ruin ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+dragon512_FWGSSC_sign=
+The sign is worn and rusted, however you can make out the faint text through the rain.
+{center}- WELCOME TO POINTGATE CITY -{center}
+
+[MADELINE left sad]
+This city must have been abandoned decades ago...{n}{0.5}I wonder what happened to it...
+
+# Onyx ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FWGSSC_Cookie_Text0=
+[MADELINE left distracted]
+There seems to be something written on the wall...
+
+[MADELINE left sad]
+It seems to be a message from another adventurer.
+
+[]
+{big}Day ???{/big}
+This is a warning to anyone who reads this.
+The entrance was barricaded for a reason. Do not go any further unless you are truly confident in your climbing abilities.
+These caves messed me up pretty bad when I fell. It's a miracle I'm alive to write this message.
+
+[MADELINE left sad]
+That's... not ominous in the slightest...
+
+[MADELINE left distracted]
+I hope I can handle this.
+
+[]
+If for some reason you want to press on anyway, do so cautiously. These caves have a strange power to them, and things don't seem to act the way they should.
+
+[MADELINE left sad]
+I've noticed already. Something definitely feels... different... about my dash.
+It's scary, not understanding how it works anymore.
+...
+
+[MADELINE left distracted]
+Take a deep breath, you'll be okay.
+
+[MADELINE left sad]
+…
+
+
+
+FWGSSC_Cookie_Text1=
+[]
+{big}Day 1{/big}
+I have finally built up the courage to enter these mines.
+This used to be a very busy mining site, due to its incredible mineral density. Project Onyx it was called.
+Several years ago though, there was a fatal accident here and the mine was shut down suddenly.
+Over time, the neatly-arranged shafts fell into disrepair and the project slowly faded into obscurity.
+
+[MADELINE left sad]
+…
+
+[]
+This seems like a fine spot to rest for today, while I prepare myself for the long expedition ahead.
+
+
+
+FWGSSC_Cookie_Text2=
+[]
+{big}Day 2{/big}
+This stretch is particularly difficult, so I thought I'd offer assistance to anyone else who has made it this far.
+See those hanging support beams?
+If you approach one of those with a {*}lot of speed{/*}, and jump off it at just the right time, you can go flying!
+
+[MADELINE left normal]
+Hey, this seems fun!
+
+[MADELINE left distracted]
+I hope I don't fall...
+
+
+
+FWGSSC_Cookie_Text3=
+[]
+{big}Day 3{/big}
+It's been getting steadily more difficult to keep track of the time ever since my watch has died. It might be Day 4 by now.
+I've now reached the deeper part of the mine, where the bulk of the minerals can be found.
+The air is getting pretty hot in here though, and magma flows freely mere feet below me. It's becoming dangerous just to walk around.
+To make matters worse, these grappling hooks are a nuisance to use. At least someone was kind enough to mark out the best locations to use them from.
+It seems like you get a different launch trajectory if you are jumping when the grappling hook begins to pull you in.
+Perhaps this technique could help me travel deeper.
+
+[MADELINE left normal]
+So if I {*}grab{/*} the wall with one of these hooks, then {*}jump{/*}, I can get launched...?
+
+FWGSSC_Cookie_Text4=
+[]
+{big}Day... 5?{/big}
+Disaster has struck. One hook misfire is all it took to shatter my hopes for a prosperous future.
+As much as it disappoints me to say this, my time as an adventurer is over. When I escape, I'll be all but guaranteed to be wheelchair-bound forever.
+{*}If{/*} I escape, that is.
+
+[MADELINE left sadder]
+...
+
+# An Adorable American Akita's Amazing Aerial Adventure ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+START_SEARCHING=
+[MADELINE left upset]
+Where could that bird have gone?
+[MADELINE left distracted]
+I know it flew this way, but I just don't see it anywhere.
+[MADELINE left angry]
+Why did I have to take my eyes off it!
+This could've been so easy!
+
+CALM_SEARCHING=
+[MADELINE left determinedclosed]
+Okay. Calm down.
+[MADELINE left determined]
+There's got to be a better way of doing this.
+
+CONSIDER_CLIMBING=
+[MADELINE left determined]
+Maybe I can get a better view from that big tree.
+
+DONT_SEE_ANYTHING=
+[MADELINE left distracted]
+{>> 0.2}...
+...
+...{>>}
+Oh. I really can't see anything from up here either.
+[MADELINE left sad]
+This forest is just too dense.
+[MADELINE left sadder]
+I'm just wasting my time. I should climb back down and keep looking.
+
+WHAT_IS_THAT_UP=
+[MADELINE left sadder]
+At least the clouds are{>> 0.2}...{>>}
+[MADELINE left surprised pop]
+Wait.{0.5} Is that?
+
+THAT_IS_IT_UP=
+[MADELINE left angry]
+It is!
+[MADELINE left sadder]
+The bird really flew all the way up there?
+But{>> 0.2}...{>>}
+
+TREE_TOP_PANIC=
+[MADELINE left panic]
+I can't get up there.
+What am I going to do?
+What do I do?
+WhatdoIdo{>> 2}whatdoIdowhatdoIdo{>>}
+
+DOG_BARK=
+[BUFFY right buffy]
+{>> 4}Woof!{>>}
+
+HELLO_DOG=
+[MADELINE left surprised]
+A dog?
+
+DOG_GREETING=
+[MADELINE left normal]
+Hi pup! Who are you?
+
+DOG_CAN_HELP=
+[MADELINE left normal]
+Buffy? Hi Buffy!
+[MADELINE left sad]
+I haven't been having a great day, but somehow you're making it better.
+[MADELINE left sadder]
+I was driving to a Secret Santa party, but a bird stole my gift right out of my car.
+[MADELINE left distracted]
+I guess they thought it was good, at least.
+[MADELINE left panic]
+I don't know what I'm going to do, Buffy.
+I can't just show up without a gift!
+
+DOG_CAN_HELP_2=
+[BUFFY right buffy]
+{>> 4}Woof! Woof!{>>}
+[MADELINE left surprised]
+You can help me get it back?! That's great!
+[MADELINE left determined]
+Let's go!
+
+FALL_SAD=
+[MADELINE left angry]
+That bird again!
+[MADELINE left sadder]
+I was so close.
+[MADELINE left panic]
+But I just fell so far.
+Maybe I should just give up and go without a gift.
+[MADELINE left distracted]
+I know my friends will understand.
+[MADELINE left determinedclosed]
+{>> 0.2}. . .{>>}
+[MADELINE left determined]
+No.{1} I've gotten so far.{1} And Buffy is here to help me.
+[MADELINE left together]
+I won't let some stupid bird ruin my Christmas like this!
+
+BIRD_HOPE=
+[MADELINE left normal]
+{>> 2}I can see a gap in the clouds!{>>}
+
+BIRD_1=
+[MADELINE left surprised]
+What!
+
+SECRET_WELCOME=
+[SECRET_CHARACTER]
+Hm?
+Goodness! how did you manage to make your way here?
+Oh. 
+Looks like you've got that pesky heart effect.
+Let me help you with that one.
+
+SECRET_RETURN_DIE=
+[SECRET_CHARACTER]
+Oh. Welcome back.
+Looks like you need a hand with that heart effect again.
+
+SECRET_SILVER=
+[SECRET_CHARACTER]
+Ooh!
+Welcome back!
+You've got such a nice deathless run going!
+{>> 0.2}...{>>}
+Hmmm.
+I don't think I'll be offering you a free way out this time around.
+You chose to hop in here. No backing out now.
+Oh. and I hope you didn't do a heart ultra. Because I'm about to kill you if you did!
+{>> 0.2}...
+...{>>}
+
+SECRET_QUESTION=
+[SECRET_CHARACTER]
+What did you think about my clouds?
+
+SECRET_CHOICE_LEAVE=
+[MADELINE left normal]
+I'd like to go back to the heart!
+
+SECRET_CHOICE_LOOP=
+[MADELINE left normal]
+I loved the loop blocks!
+
+SECRET_CHOICE_ZIPPER=
+[MADELINE left normal]
+I loved the zippers!
+
+SECRET_CHOICE_BOOSTER=
+[MADELINE left normal]
+I loved the boosters!
+
+SECRET_CHOICE_DOG=
+[MADELINE left normal]
+I loved Buffy!
+
+SECRET_CHOICE_LEAVE_RESPONSE_ONE=
+[MADELINE left normal]
+Can I just go back to the heart please?
+[SECRET_CHARACTER]
+Oh no problem. Go get that heart. You deserve it.
+
+SECRET_CHOICE_LEAVE_RESPONSE_TWO=
+[MADELINE left normal]
+Uhh. I actually want to go back and get the heart.
+[SECRET_CHARACTER]
+Well I wish you'd make up your mind, but fine.
+
+SECRET_CHOICE_LOOP_RESPONSE_ONE=
+[MADELINE left normal]
+I thought there were way too many loop blocks!
+[SECRET_CHARACTER]
+Well now. That's quite rude of you.
+As it turns out though, I do have an extra special loop block-less room.
+I'll go ahead and send you there now!
+
+SECRET_CHOICE_LOOP_RESPONSE_TWO=
+[MADELINE left normal]
+I still don't like the loop blocks!
+[SECRET_CHARACTER]
+Back with this again?
+Well. Back to the loop-less room for you I guess. Have fun.
+
+SECRET_CHOICE_ZIPPER_RESPONSE_ONE=
+[MADELINE left normal]
+I thought there were way too many zippers!
+[SECRET_CHARACTER]
+Hey. That's rude. I really like zippers.
+...I do suppose I made that one weird room.
+Maybe you'll enjoy it. It's only loop blocks and boosters.
+Off you go!
+
+SECRET_CHOICE_ZIPPER_RESPONSE_TWO=
+[MADELINE left normal]
+I still don't like the zippers!
+[SECRET_CHARACTER]
+So negative with you. Goodness.
+Fine. I'll send you back to the no zipper room.
+
+SECRET_CHOICE_BOOSTER_RESPONSE_ONE=
+[MADELINE left normal]
+I thought there were way too many boosters!
+[SECRET_CHARACTER]
+Hmm you might not want to stick with that one.
+I mean yeah some of the boosters are a little redundant.
+But they're so handy for readability and execution.
+But if you insist...
+I did make a special room with none of those silly bubbles.
+Good luck!
+
+SECRET_CHOICE_BOOSTER_RESPONSE_TWO=
+[MADELINE left normal]
+I still don't like the boosters!
+[SECRET_CHARACTER]
+What. Would you rather they were red?
+Well too bad. I'm all out of those.
+Back to boosterless room you go!
+
+SECRET_CHOICE_DOG_RESPONSE_ONE=
+[MADELINE left normal]
+I thought there was too mu-
+[SECRET_CHARACTER]
+Hm?
+What is it?
+[MADELINE left angry]
+What is going on!
+I haven't wanted to say any of this!
+[MADELINE left normal]
+I loved Buffy being in the map!
+[SECRET_CHARACTER]
+Oh yeah we don't get an enormous amount of free will here.
+I'm glad you liked Buffy though!
+Since you managed your way through all the silly extra rooms, you get even more dogs now!
+Say hi to them for me :D
+
+SECRET_CHOICE_DOG_RESPONSE_TWO=
+[MADELINE left normal]
+I still love Buffy!
+[SECRET_CHARACTER]
+That's great to hear. You want some more dog time?
+Works for me.
+
+SILVER_SECRET_QUESTION=
+[SECRET_CHARACTER]
+Where to?
+
+SILVER_SECRET_TELEPORT=
+[SECRET_CHARACTER]
+Off you go!
+
+SILVER_SECRET_DOG=
+[SECRET_CHARACTER]
+You did it!
+Good job!
+Now you get to say hi to my lovely pups and finish out your run!
+
+BUFFY_GREETING=
+[MADELINE left normal]
+Buffy!
+
+BUFFY_THANKS=
+[MADELINE left normal]
+I'm glad you're up here too!
+Thank you so much for helping me climb all the way up.
+It was so fun! And I definitely couldn't have done it without you.
+
+HINT=
+[MADELINE left normal]
+I wonder if there's anything further down the cliff.
+Maybe I'll jump down {~}once I've grabbed the heart{/~}.
+
+HINT_INTRO=
+[SECRET_CHARACTER]
+Hi!
+[MADELINE left surprised]
+Who's that?!
+[SECRET_CHARACTER]
+I'm the watchtower!
+[MADELINE left distracted]
+Who?
+[SECRET_CHARACTER]
+{>> 0.2}...{>>}
+[SECRET_CHARACTER]
+The binocular. The skull. Whatever works for you.
+[Madeline left normal]
+Oh hi!
+[SECRET_CHARACTER]
+So...
+I've noticed part of this room can be hard to read.
+And I'm generally contracted to help with that sort of a problem.
+So if you want any advice come over to me!
+
+HINT_ACTUAL=
+[SECRET_CHARACTER]
+Hi again!
+Remember: this is a bit of a hint for the room.
+My NDA lets me give a little bit of advice, but I know some people want to figure things out themselves so...
+If you don't want anything you should go ahead and skip this. I'm always here if you want to know later.
+{>> 0.2}...
+...
+...{>>}
+Ok! Here you go!
+I would {~}strongly advise{/~} against reversing your wavedashes for this room.
+[MADELINE left sad]
+That's it?
+[SECRET_CHARACTER]
+Yup! That's all I'm cleared to tell you! Have fun!
+
+INTRO_SECRET=
+[MADELINE left normal]
+I'm almost there!
+[MADELINE left distracted]
+{>> 0.2}...{>>}
+Something feels wrong...
+[MADELINE left surprised]
+My dash is gone!
+What happened!
+[MADELINE left normal]
+Oh well. At least this spot sure is comf!
+I'll go back to Buffy. She said she'd help me, and I do trust her.
+
+SILVER_RECCOMEND=
+[SECRET_CHARACTER]
+{>> 0.2}...
+...
+...
+The wind whispers
+...
+...
+...
+I wouldn't heart ultra if I were you.
+...
+...
+...
+Jumping down won't kill you right now.
+...
+...
+...{>>}
+
+SILVER_LOST=
+[SECRET_CHARACTER]
+Oops! There goes the deathless run!
+
+MEMORY=
+[SECRET_CHARACTER]
+The best grandfather I could have asked for.
+Passed during development.
+Although you may not have fully understood all this,
+I know you would've been excited and supportive.
+
+# Catfish Cove ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+HOW_IS_CAR_HERE=
+[MADELINE left surprised]
+My car!
+How in the world is it here?!
+[MADELINE left normal]
+Oh well.
+It probably rolled into the ocean.
+Maybe I shouldn't have parked on those dunes.
+
+FUNNY=
+[MADELINE left deadpan]
+Comf!
+
+NOTHING=
+[SECRET_CHARACTER]
+There is nothing for you here traveler.
+Your car is elsewhere.
+Although we really hope you've seen it if you got here.
+
+# Backstreets of Neo Caladrius ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FWGSSC_Spooooky_PeterRed=
+[PETER right flip normal]
+Hey! You there!
+What are you doing in our backstreets, eh?
+I bet you're another chump sent to overthrow our empire of glorious white powder...
+Well, I, Peter of the great Peter Cartel will make sure you never find it.
+SMOKEBOMB
+
+FWGSSC_Spooooky_PeterRed2=
+[MADELINE left distracted]
+uhhhh
+
+FWGSSC_Spooooky_PeterGreen=
+[PETER right flip normal]
+Aha! Peter told me to be expecting you...
+
+FWGSSC_Spooooky_PeterGreen2=
+[MADELINE left distracted]
+Wait... I thought you were Peter?
+
+FWGSSC_Spooooky_PeterGreen3=
+[PETER right flip normal]
+I am!
+I'm Green Peter! Of the Peter Cartel.
+You may have bested Red Peter already but you won't get past my tricky contraptions!
+SMOKEBOMB
+
+FWGSSC_Spooooky_PeterGreen4=
+[MADELINE left distracted]
+...
+
+FWGSSC_Spooooky_PeterBlue=
+[PETER right flip normal]
+Aha! Peter told me to be expecting you...
+
+FWGSSC_Spooooky_PeterBlue2=
+[MADELINE left determined]
+Which one, Red Peter or Green Peter?
+
+FWGSSC_Spooooky_PeterBlue3=
+[PETER right flip normal]
+Neither! It was actually Cyan Peter. He's been watching your reign of terror through the watchtowers...
+But you'll never take me alive!!!
+SMOKEBOMB
+
+FWGSSC_Spooooky_PeterBlue4=
+[MADELINE left surprised]
+What is happening?!
+
+FWGSSC_Spooooky_PeterYellow=
+[PETER right flip normal]
+Stop right there!
+
+FWGSSC_Spooooky_PeterYellow2=
+[MADELINE left upset]
+Let me guess... Yellow Peter?
+
+FWGSSC_Spooooky_PeterYellow3=
+[PETER right flip normal]
+Actually, I'm Pink Peter... Of the Peter Cartel.
+I've been staying round Yellow Peter's house lately and the washing machine is broken and it's a whole thing...
+I can appreciate the confusion.
+Anyways, I can't let you go any further! The fate of our empire of glorious white powder is at stake!
+
+FWGSSC_Spooooky_PeterYellow4=
+[MADELINE left normal]
+What if I ask nicely?
+
+FWGSSC_Spooooky_PeterYellow5=
+[PETER right flip normal]
+uh...
+
+FWGSSC_Spooooky_PeterYellow6=
+[MADELINE left normal]
+Pretty please with a cherry on top!
+
+FWGSSC_Spooooky_PeterYellow7=
+[PETER right flip normal]
+...
+That was very polite.
+I suppose you can pass.
+...
+...
+SMOKEBOMB
+
+FWGSSC_Spooooky_PeterYellow8=
+[MADELINE left deadpan]
+...
+
+FWGSSC_Spooooky_PeterPurple=
+[PETER right flip normal]
+Hey!
+
+FWGSSC_Spooooky_PeterPurple2=
+[MADELINE left upset]
+Please, Purple Peter... I'm not in the mood.
+
+FWGSSC_Spooooky_PeterPurple3=
+[PETER right flip normal]
+Who the hell is Purple Peter?
+I'm Chris.
+I was just going to compliment your hair, but you can forget about that, rude lady.
+
+FWGSSC_Spooooky_PeterPurple4=
+[MADELINE left surprised]
+Oh, I'm so sorry! I thought you were someone else.
+
+FWGSSC_Spooooky_PeterPurple5=
+[PETER right flip normal]
+PSYCHE!
+OF COURSE I'm Purple Peter of the Peter Cartel.
+I'm the purplest Peter out there.
+Check it out, even my smoke is purple.
+SMOKEBOMB
+
+FWGSSC_Spooooky_PeterPurple6=
+[MADELINE left surprised]
+This has got to be a dream, right?
+
+FWGSSC_Spooooky_PeterBlack=
+[PETER right flip normal]
+We meet at last...
+
+FWGSSC_Spooooky_PeterBlack2=
+[MADELINE left upset]
+I don't know who you are.
+I could take a solid guess though...
+
+FWGSSC_Spooooky_PeterBlack3=
+[PETER right flip normal]
+The name is Peter of the Peter Cartel.
+
+FWGSSC_Spooooky_PeterBlack4=
+[MADELINE left upset]
+Shocker.
+
+FWGSSC_Spooooky_PeterBlack5=
+[PETER right flip normal]
+No but like actually Peter.
+THE Peter from the name Peter Cartel.
+I'm like a big deal and stuff.
+Whatever, I'm here to put an end to your plans to overthrow my empire of glorious white powder!
+Time to bring out the big guns.
+SMOKEBOMB
+
+FWGSSC_Spooooky_PeterBlack6=
+[MADELINE left upset]
+I just wanted to do some downtown shopping. I'm not qualified for this.
+
+FWGSSC_Spooooky_PeterBoss=
+[PETER right flip normal]
+Go, my various spiked boxes!
+
+FWGSSC_Spooooky_PeterBoss2=
+[PETER right flip normal]
+{~}SPECIAL ATTACK!!!{/~}
+
+FWGSSC_Spooooky_PeterBoss3=
+[PETER right flip normal]
+{~}Noooo, I have been thwarted!{/~}
+
+FWGSSC_Spooooky_PeterBoss4=
+[PETER right flip normal]
+You win this time, {# F94A4A}{savedata Name}{#}
+
+FWGSSC_Spooooky_PeterBoss5=
+[PETER right flip normal]
+SMOKEBOMB
+
+FWGSSC_Spooooky_GrannyPeter=
+[MADELINE left surprised]
+Granny?!
+
+[GRANNY right normal]
+That's me!
+Well... I'm not your granny, but I'm Peter's granny.
+You know, from the Peter Cartel.
+
+[MADELINE left upset]
+I'm somewhat familiar, yes.
+
+[GRANNY right creepA]
+I'm so proud of my darling grandson.
+Did you know he is the CEO of his own company?
+He is the most successful snow merchant in the country!
+
+[MADELINE left surprised]
+Snow?! That's what they mean by "glorious white powder"?
+
+[GRANNY right mock]
+Yes, dear, the finest, fluffiest snow you can buy!
+What else could it be?
+
+[MADELINE left determined]
+I assumed it was.. uhh.. nevermind...
+
+[MADELINE left upset]
+Who is buying snow? It literally falls from the sky.
+
+[GRANNY right creepB]
+I don't make the rules, dear.
+
+# GLORY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+end=
+[Madeline left determinedclosed]
+No guts, no glory.
+
+# Sunken Sun ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+MyName_MyExampleMod_Room1Title= Drowned Wake
+
+MyName_MyExampleMod_Tutorial= Dream Double Jump 
+
+MyName_MyExampleMod_Key1Title= Flash Flood
+
+MyName_MyExampleMod_FinalTitle= Sunken Sun
+
+MyName_MyExampleMod_Lore1= You have seen it—
+
+MyName_MyExampleMod_Lore2= The empty temples,
+
+MyName_MyExampleMod_Lore3= the senseless landscape.
+
+MyName_MyExampleMod_Lore4= Our world lies in ruin.
+
+MyName_MyExampleMod_Lore5= Harnessing the Aqua Star 
+
+MyName_MyExampleMod_Lore6= to reach a new dimension
+
+MyName_MyExampleMod_Lore7= for our growing population,
+
+MyName_MyExampleMod_Lore8= the star grew unstable.
+
+MyName_MyExampleMod_Lore9= Its waves ravage our homeland.
+
+MyName_MyExampleMod_Lore10= I beg you:
+
+MyName_MyExampleMod_Lore11= lay the star to rest
+
+MyName_MyExampleMod_Lore12= so that the final trace 
+
+MyName_MyExampleMod_Lore13= of our existence may endure.
+
+MyName_MyExampleMod_Lore14= Destroy the soul of our Sunken Sun.
+
+MyName_MyExampleMod_Portal3= Don't hold any direction!
+
+MyName_MyExampleMod_Portal2= Face right before entering!
+
+MyName_MyExampleMod_Countdown= AQUATIC SUPERNOVA IMPENDING
+
+# Shelltacular ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+NowYouDie=
+[MADELINE left normal]
+hi
+
+[MADELINE left normal]
+you were expecting gameplay werent you
+
+[MADELINE left normal]
+well i might have bad news for you
+
+[MADELINE left normal]
+now i will name every word that starts with R!
+
+[MADELINE left normal]
+rabat
+
+[MADELINE left normal]
+rabbet
+
+[MADELINE left normal]
+rabbi
+
+[MADELINE left normal]
+rabbit
+
+[MADELINE left normal]
+rabbits
+
+[MADELINE left normal]
+rabble
+
+[MADELINE left normal]
+rabid
+
+[MADELINE left normal]
+rabies
+
+[MADELINE left normal]
+raccoon
+
+[MADELINE left normal]
+raccoons
+
+[MADELINE left normal]
+race
+
+[MADELINE left normal]
+raced
+
+[MADELINE left normal]
+racer
+
+[MADELINE left normal]
+racers
+
+[MADELINE left normal]
+races
+
+[MADELINE left normal]
+racetrack
+
+[MADELINE left normal]
+raceway
+
+[MADELINE left normal]
+racial
+
+[MADELINE left normal]
+racially
+
+[MADELINE left normal]
+racing
+
+[MADELINE left normal]
+rack
+
+[MADELINE left normal]
+racked
+
+[MADELINE left normal]
+racket
+
+[MADELINE left normal]
+racketeer
+
+[MADELINE left normal]
+rackets
+
+[MADELINE left normal]
+rackety
+
+[MADELINE left normal]
+racking
+
+[MADELINE left normal]
+racks
+
+[MADELINE left normal]
+racy
+
+[MADELINE left normal]
+radar
+
+[MADELINE left normal]
+radars
+
+[MADELINE left normal]
+radial
+
+[MADELINE left normal]
+radially
+
+[MADELINE left normal]
+radian
+
+[MADELINE left normal]
+radiance
+
+[MADELINE left normal]
+radiant
+
+[MADELINE left normal]
+radiantly
+
+[MADELINE left normal]
+radiate
+
+[MADELINE left normal]
+radiated
+
+[MADELINE left normal]
+radiates
+
+[MADELINE left normal]
+radiating
+
+[MADELINE left normal]
+radiation
+
+[MADELINE left normal]
+radiator
+
+[MADELINE left normal]
+radiators
+
+[MADELINE left normal]
+radical
+
+[MADELINE left normal]
+radically
+
+[MADELINE left normal]
+radicals
+
+[MADELINE left normal]
+radices
+
+[MADELINE left normal]
+radii
+
+[MADELINE left normal]
+radio
+
+[MADELINE left normal]
+radioed
+
+[MADELINE left normal]
+radiogram
+
+[MADELINE left normal]
+radioing
+
+# Thermal Burst ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+tntcoreend1= Thanks for playing this silly little map
+
+tntcoreend2= Sorry to jfty that this map is nothing like the prompt
+
+tntcoreend3= Hopefully you at least had a good time though :peaceline:
+
+tntcoreend4= :3

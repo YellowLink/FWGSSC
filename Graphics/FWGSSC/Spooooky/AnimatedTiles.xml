@@ -1,0 +1,6 @@
+﻿<Data>
+
+	<sprite name="grass_top_a" path="animatedTiles/grass/top_a" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="dead_top_a" path="animatedTiles/dead/top_a" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+
+</Data>
