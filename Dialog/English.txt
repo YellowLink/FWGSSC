@@ -1217,3 +1217,8 @@ tntcoreend2= Sorry to jfty that this map is nothing like the prompt
 tntcoreend3= Hopefully you at least had a good time though :peaceline:
 
 tntcoreend4= :3
+
+# CRT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+STUCK=
+[MADELINE left deadpan]
+You're stuck in here with me, buddy.
