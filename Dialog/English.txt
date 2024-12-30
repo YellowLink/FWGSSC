@@ -780,6 +780,24 @@ There is nothing for you here traveler.
 Your car is elsewhere.
 Although we really hope you've seen it if you got here.
 
+HOW=
+[SECRET_CHARACTER]
+How in the world did you get here!
+Out!
+Leave me alone!
+This is my day off!
+
+CAT=
+[MADELINE left surprised pop]
+Wait!
+[MADELINE left determined]
+There's a cat here.
+I can feel it in my {~}bones{/~}
+[MADELINE left distracted]
+I know it's real close, right around here, but where?
+[MADELINE left together]
+I'll find you, cat.
+
 # Backstreets of Neo Caladrius ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 FWGSSC_Spooooky_PeterRed=
