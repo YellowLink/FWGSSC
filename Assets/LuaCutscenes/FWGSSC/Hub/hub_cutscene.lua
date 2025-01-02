@@ -54,6 +54,7 @@ end
 
 function onEnd()
     enableMovement()
+    enableRetry()
     if move_coroutine then
         move_coroutine:Cancel()
         cutsceneEntity:Remove(move_coroutine)
@@ -64,7 +65,7 @@ function onEnd()
     end
     setFlag("disable_lightning", false)
     engine.Scene:ResetZoom()
-    --hubTP()
+    hubTP()
 end
 
 function magnitude(x1,y1,x2,y2)
