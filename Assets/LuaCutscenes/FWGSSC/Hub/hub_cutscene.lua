@@ -43,7 +43,9 @@ function onBegin()
     waitUntilBreaker()
     disableMovement()
     disableRetry()
+    player.Collidable = false
     player.DummyAutoAnimate = false
+    player.TreatNaive = true
 	player.Sprite:Play("spin")
     move_coroutine = makeCoroutine(moveController)
     cutsceneEntity:Add(move_coroutine)
@@ -55,6 +57,8 @@ end
 function onEnd()
     enableMovement()
     enableRetry()
+    player.Collidable = true
+    player.TreatNaive = false
     if move_coroutine then
         move_coroutine:Cancel()
         cutsceneEntity:Remove(move_coroutine)
