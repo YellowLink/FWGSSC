@@ -27,20 +27,29 @@ end
 target_x = 12936
 target_y = -2992
 target = vector2(target_x, target_y)
+duration = 10 --seconds
+
+-- move controller
+time_to_center = 5 --seconds
+tangent_speed = 200
+
+-- camera controller
+max_zoom = 4
+zoom_duration = 900 --bigger = slower
+target_y = 70 --from top of screen
 
 function onBegin()
     makeUnskippable()
     waitUntilBreaker()
     disableMovement()
+    disableRetry()
     player.DummyAutoAnimate = false
 	player.Sprite:Play("spin")
     move_coroutine = makeCoroutine(moveController)
     cutsceneEntity:Add(move_coroutine)
     camera_coroutine = makeCoroutine(cameraController)
     cutsceneEntity:Add(camera_coroutine)
-    target_coroutine = makeCoroutine(targetController)
-    cutsceneEntity:Add(target_coroutine)
-    wait(10)
+    wait(duration)
 end
 
 function onEnd()
@@ -53,13 +62,9 @@ function onEnd()
         camera_coroutine:Cancel()
         cutsceneEntity:Remove(camera_coroutine)
     end
-    if target_coroutine then
-        target_coroutine:Cancel()
-        cutsceneEntity:Remove(target_coroutine)
-    end
     setFlag("disable_lightning", false)
     engine.Scene:ResetZoom()
-    hubTP()
+    --hubTP()
 end
 
 function magnitude(x1,y1,x2,y2)
@@ -67,14 +72,14 @@ function magnitude(x1,y1,x2,y2)
 end
 
 function moveController()
-    time_to_center = 5 --seconds
-    tangent_speed = 200
-    distance_tolerance = 0 -- this doesn't seem to work and I'm not sure why
+    --distance_tolerance = 0 -- this doesn't seem to work and I'm not sure why
     initial_distance = magnitude(player.Position.X, player.Position.Y, target.X, target.Y)
     m = initial_distance
     prev_loc = player.Position
-    wait()
-    while m > distance_tolerance do
+    wait()  --why does it need to wait 1 frame? I don't know!
+            --but if I don't do this madeline teleports off into the distance!
+    --while m > distance_tolerance do --might revisit this later
+    while true do
         m = magnitude(player.Position.X, player.Position.Y, target_x, target_y)
         inwards = (target - player.Position) / m
         tangent = vector2(inwards.Y, -inwards.X)
@@ -84,19 +89,17 @@ function moveController()
         prev_loc = prev_loc + speed
         wait()
     end
+    --[[
     final_loc = player.Position
     while true do
         player.Speed = vector2(0, 0)
         player.Position = final_loc
         wait()
-    end
+    end--]]
 end
 
 function cameraController()
     zoom_time = 0
-    max_zoom = 4
-    zoom_duration = 900 --bigger = slower
-    target_y = 70 --from top of screen
     while true do
         --max_zoom - zoom_duration / v = 1
         --(max_zoom - 1) * v = zoom_duration
@@ -128,15 +131,4 @@ player.CameraAnchorLerp = Vector2.One * MathHelper.Clamp(LerpStrength *
 (1, 1) * LerpStrength 
     (LerpStrength is on [0.5, 1] and GetPositionLerp returns 1 for our use case)
 --]]
-function targetController()
-    increase_rate = 0.01
-    lerp_strength = 0.5
-    while (lerp_strength < 1) do
-        player.CameraAnchor = target
-        player.CameraAnchorLerp = vector2(lerp_strength, lerp_strength)
-        lerp_strength = lerp_strength + increase_rate
-    end
-    player.CameraAnchor = target
-    player.CameraAnchorLerp = vector2(1, 1)
-    lerp_strength = lerp_strength + increase_rate
-end
+-- In case of another attempt to control camera target (failed the first one)
