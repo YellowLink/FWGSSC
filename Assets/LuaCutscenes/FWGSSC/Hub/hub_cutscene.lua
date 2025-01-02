@@ -29,8 +29,8 @@ function onBegin()
     disableMovement()
     player.ForceCameraUpdate = true
     player.DummyAutoAnimate = false
-    --move_coroutine = makeCoroutine(moveController)
-    --cutsceneEntity:Add(move_coroutine)
+    move_coroutine = makeCoroutine(moveController)
+    cutsceneEntity:Add(move_coroutine)
     camera_coroutine = makeCoroutine(cameraController)
     cutsceneEntity:Add(camera_coroutine)
     wait(10)
@@ -56,23 +56,24 @@ function magnitude(x1,y1,x2,y2)
 end
 
 function moveController()
-    time_to_center = 0.6 --seconds
-    tangent_speed = 0
+    time_to_center = 5 --seconds
+    tangent_speed = 200
     target_x = 12936
     target_y = -2992
     target = vector2(target_x, target_y)
-    distance_tolerance = 1
+    distance_tolerance = 0 -- this doesn't seem to work and I'm not sure why
     initial_distance = magnitude(player.Position.X, player.Position.Y, target.X, target.Y)
     m = initial_distance
     prev_loc = player.Position
+    wait()
     while m > distance_tolerance do
         m = magnitude(player.Position.X, player.Position.Y, target_x, target_y)
         inwards = (target - player.Position) / m
         tangent = vector2(inwards.Y, -inwards.X)
-        speed = inwards * initial_distance / time_to_center
-        say(speed.X)
-        player.position = prev_loc + speed
-        prev_loc = player.Position
+        speed = tangent * tangent_speed + inwards * initial_distance / time_to_center * 5
+        --why 5? I don't know! It just sorta works good
+        player.Position = prev_loc + speed
+        prev_loc = prev_loc + speed
         wait()
     end
     final_loc = player.Position
