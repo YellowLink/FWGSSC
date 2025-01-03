@@ -27,10 +27,10 @@ end
 target_x = 12936
 target_y = -2992
 target = vector2(target_x, target_y)
-duration = 10 --seconds
+duration = 5 --seconds
 
 -- move controller
-time_to_center = 5 --seconds
+time_to_center = 4 --seconds
 tangent_speed = 200
 
 -- camera controller
