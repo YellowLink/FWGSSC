@@ -1240,3 +1240,7 @@ tntcoreend4= :3
 STUCK=
 [MADELINE left deadpan]
 You're stuck in here with me, buddy.
+
+GLUE=
+[MADELINE left normal]
+Praise Glue!
