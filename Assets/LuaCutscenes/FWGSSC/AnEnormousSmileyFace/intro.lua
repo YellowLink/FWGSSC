@@ -51,7 +51,7 @@ function onEnd(wasSkipped)
   engine.Scene:ResetZoom()
   player.DummyAutoAnimate = true
   if (wasSkipped and not getFlag("introWatched")) then
-    teleportTo(744, 184)
+    teleportTo(744, 176)
   end
   setFlag("introWatched", true)
 end
@@ -358,7 +358,7 @@ end
 
 function spawnBuffy()
   -- create and add a new badeline dummy entity
-  buffy = celeste.BadelineDummy(vector2(665, 186))
+  buffy = celeste.BadelineDummy(vector2(665, 178))
   buffy.Sprite.Scale = vector2(-1, 1.0)
   getRoom():Add(buffy)
   buffy.Sprite:Play("duck")
