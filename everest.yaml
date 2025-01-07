@@ -42,6 +42,8 @@
       Version: 1.5184.0
     - Name: ExtendedVariantMode
       Version: 0.39.7
+    - Name: FancyTileEntities
+      Version: 1.6.2
     - Name: FemtoHelper
       Version: 1.12.13
     - Name: FlaglinesAndSuch
