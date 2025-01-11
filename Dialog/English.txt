@@ -62,7 +62,7 @@ Inspiration: microbiome, Fractured Iridescence
 FWGSSC_1_Lobby_7_cameronc_author= From CameronC // To :D
 FWGSSC_1_Lobby_7_cameronc_collabcredits=
 Music: Sunken Sun - CameronC // Cave Ambience - CameronC
-Playtesters: :D, Kit
+Playtesting: :D, Kit
 Assets: Yoshachobi7, Juno
 
 FWGSSC_1_Lobby_8_apeirocell_author= From Apeirocell // To ravenJB
@@ -1053,6 +1053,10 @@ MyName_MyExampleMod_Portal2= Face right before entering!
 MyName_MyExampleMod_Countdown= AQUATIC SUPERNOVA IMPENDING
 
 # Shelltacular ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+midair_cutscene=
+[MADELINE left normal]
+i hope you like cutscenes!
 
 NowYouDie=
 [MADELINE left normal]
