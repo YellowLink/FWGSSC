@@ -187,7 +187,7 @@
   <player_playback copy="player" path="characters/player_playback/"/>
   
   <!-- NPCs -->
-
+  
   <badeline path="characters/FWGSSC/AnEnormousSmileyFace/badeline/">
     <Justify x=".5" y="1" />
     

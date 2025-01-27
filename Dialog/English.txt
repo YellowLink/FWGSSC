@@ -24,6 +24,7 @@ FWGSSC_1_Lobby_12_smiley= An Adorable American Akita's Amazing Aerial Adventure
 FWGSSC_1_Lobby_13_spooooky= Backstreets of Neo Caladrius
 FWGSSC_1_Lobby_14_theegoober= Late Night in Autumn/Chinese Remainder Theorem
 FWGSSC_1_Lobby_15_volan= Shelltacular
+FWGSSC_1_Lobby_16_DreamPurgatory= Dream Purgatory
 
 FWGSSC_1_Lobby_1_tntgobang_author= From Tnt_go_bang // To jftyjghj
 FWGSSC_1_Lobby_1_tntgobang_collabcredits=
@@ -114,6 +115,12 @@ FWGSSC_1_Lobby_15_volan_collabcredits=
 Music: Staff Roll (New Super Mario Bros) - Asuka Ohta, Hajime Wakai, Koji Kondo
 Playtesting: Kit, Dragon512
 Inspiration: Lava Layer
+
+FWGSSC_1_Lobby_16_DreamPurgatory_author= From Spooooky, :D, Kit, ravenJB, Cookie, and Apeirocell // To PATXS and YellowLink
+FWGSSC_1_Lobby_16_DreamPurgatory_collabcredits=
+Music: garden of birdly delights - leon chang // Amen, Brother - The Winstons
+Assets and primary deco: Spooooky
+Primary playtesting: Kit
 
 ### MAIN DIALOGUE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1248,3 +1255,29 @@ You're stuck in here with me, buddy.
 GLUE=
 [MADELINE left normal]
 Praise Glue!
+
+# Dream Purgatory ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FWGSSC_DreamPurgatory_Smiley= :D
+
+FWGSSC_DreamPurgatory_heh= heh
+
+FWGSSC_DreamPurgatory_one=
+[MADELINE left normal]
+One!
+
+FWGSSC_DreamPurgatory_two=
+[MADELINE left normal]
+Two!
+
+FWGSSC_DreamPurgatory_three=
+[MADELINE left normal]
+Three!
+
+FWGSSC_DreamPurgatory_too_slow=
+[MADELINE left normal]
+Dang! Too slow!
+
+FWGSSC_DreamPurgatory_yay=
+[MADELINE left normal]
+Yay! Made it!

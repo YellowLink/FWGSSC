@@ -1,0 +1,27 @@
+﻿<Data>
+
+	<sprite name="grass_top_a" path="animatedTiles/grass/top_a" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="dead_top_a" path="animatedTiles/dead/top_a" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingA" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingA" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingB" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingB" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingC" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingC" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingD" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingD" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingE" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingE" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingF" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingF" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_railingG" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/railingG" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingA" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingA" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingB" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingB" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingC" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingC" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingD" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingD" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingE" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingE" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingF" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingF" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_leftrailingG" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/leftrailingG" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingA" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingA" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingB" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingB" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingC" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingC" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingD" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingD" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingE" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingE" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingF" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingF" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+	<sprite name="Starjump_rightrailingG" path="animatedTiles/FWGSSC/DreamPurgatory/Starjump/rightrailingG" delay="0.2" posX="0" posY="-8" origX="4" origY="4"/>
+
+</Data>
