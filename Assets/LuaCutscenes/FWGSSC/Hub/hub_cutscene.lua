@@ -1,13 +1,5 @@
---[[
-function onBegin()
-    makeUnskippable()
-    waitUntilBreaker()
-    hubTP()
-end
---]]
-
-function hubTP()
-    instantTeleport("hub-main")
+function endChapter()
+    completeArea(false, false, true)
 end
 
 function waitUntilBreaker()
@@ -52,24 +44,8 @@ function onBegin()
     camera_coroutine = makeCoroutine(cameraController)
     cutsceneEntity:Add(camera_coroutine)
     wait(duration)
-end
-
-function onEnd()
-    enableMovement()
-    enableRetry()
-    player.Collidable = true
-    player.TreatNaive = false
-    if move_coroutine then
-        move_coroutine:Cancel()
-        cutsceneEntity:Remove(move_coroutine)
-    end
-    if camera_coroutine then
-        camera_coroutine:Cancel()
-        cutsceneEntity:Remove(camera_coroutine)
-    end
-    setFlag("disable_lightning", false)
-    engine.Scene:ResetZoom()
-    hubTP()
+    endChapter()
+    wait(duration)
 end
 
 function magnitude(x1,y1,x2,y2)
@@ -100,7 +76,7 @@ function moveController()
         player.Speed = vector2(0, 0)
         player.Position = final_loc
         wait()
-    end--]]
+    end --]]
 end
 
 function cameraController()
@@ -128,12 +104,3 @@ function cameraController()
         wait() --very important. Wait's one frame. Without this the game freezes
     end
 end
-
---[[
-player.CameraAnchor = Target;
-player.CameraAnchorLerp = Vector2.One * MathHelper.Clamp(LerpStrength *
-                          GetPositionLerp(player, PositionMode), 0f, 1f);
-(1, 1) * LerpStrength 
-    (LerpStrength is on [0.5, 1] and GetPositionLerp returns 1 for our use case)
---]]
--- In case of another attempt to control camera target (failed the first one)

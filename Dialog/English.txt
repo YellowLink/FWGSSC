@@ -2,6 +2,7 @@
 
 FWGSSC= FWG Secret Santa
 FWGSSC_0_Lobbies= FWGSSC
+FWGSSC_0_Lobbies_0_Prologue= Prologue
 FWGSSC_0_Lobbies_1_Lobby= FWGSSC Lobby
 endscreen_collabname_FWGSSC= FWGTC Secret Santa Collab
 endscreen_FWGSSC_FWGSSC= FWGTC Secret Santa Collab
@@ -47,11 +48,14 @@ Assets: Spooooky
 
 FWGSSC_1_Lobby_4_dragon512_author= From Dragon512 // To schnippi
 FWGSSC_1_Lobby_4_dragon512_collabcredits=
-Placeholder
+Music: When it Rains - Christopher Baklid // Eternal - Sound Phenomenon
 
 FWGSSC_1_Lobby_5_jftyjghj_author= From jftyjghj // To CameronC
 FWGSSC_1_Lobby_5_jftyjghj_collabcredits=
-Placeholder
+Music: CITRUS! - lianhua
+Deco: Spooooky
+Playtesting: avory
+Meta help + Special Thanks: ravenJB
 
 FWGSSC_1_Lobby_6_kit_author= From Kit // To Cookie
 FWGSSC_1_Lobby_6_kit_collabcredits=
@@ -63,8 +67,8 @@ Inspiration: microbiome, Fractured Iridescence
 FWGSSC_1_Lobby_7_cameronc_author= From CameronC // To :D
 FWGSSC_1_Lobby_7_cameronc_collabcredits=
 Music: Sunken Sun - CameronC // Cave Ambience - CameronC
-Playtesting: :D, Kit
 Assets: Yoshachobi7, Juno
+Playtesting: :D, Kit
 
 FWGSSC_1_Lobby_8_apeirocell_author= From Apeirocell // To ravenJB
 FWGSSC_1_Lobby_8_apeirocell_collabcredits=
@@ -75,7 +79,10 @@ Playtesting: schnippi, jftyjghj, ravenJB, Kit
 
 FWGSSC_1_Lobby_9_ravenjb_author= From ravenJB // To Barndles
 FWGSSC_1_Lobby_9_ravenjb_collabcredits=
-Placeholder
+Music: summer in fall - XLib
+Deco: ravenJB, Spooooky
+Assets: bryse0n, Juno
+Playtesting: jftyjghj, Volan, Barndles, Kit, Cookie, CameronC
 
 FWGSSC_1_Lobby_10_schnippi_author= From schnippi // To Apeirocell
 FWGSSC_1_Lobby_10_schnippi_collabcredits=
@@ -87,7 +94,7 @@ FWGSSC_1_Lobby_11_smileygrene_author= From :D // To Dumpling
 FWGSSC_1_Lobby_11_smileygrene_collabcredits=
 Music: Pinna Park (Super Mario Sunshine OST) - Koji Kondo, Shinobu Tanaka
 Playtesting: ravenJB, Cookie, Tnt_go_bang, Dumpling
-Assets: Flagpole1Up, bryse0n, Nikki (Juno.)
+Assets: Flagpole1Up, bryse0n, Juno
 Special Thanks: YellowLink, PATXS
 
 FWGSSC_1_Lobby_12_smiley_author= From :D // To Spooooky
