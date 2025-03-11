@@ -137,6 +137,9 @@ lobbyintro1=
 [MADELINE left normal] Woah! It's the legendary {~}{# 499b2a}Christmas Switch{#}{/~}
 {# 499b2a}This is probably going to be reskinned to look awesome in the future!{#}
 
+kity=
+kity :D
+
 ### MAP DIALOGUE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # The Fallen Leaves Tell a Story ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
