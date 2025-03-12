@@ -218,7 +218,7 @@
     <Loop id="duck" path="duck" delay="0.1" frames="0-9" />
     <Loop id="edge" path="edge" delay="0.25" frames="0-13" />
     <Anim id="sleep" path="sleep" delay="0.1" frames="0-10,10*5,11-23" />
-    <Anim id="faint" path="faint" delay="0.1" frames="0810" goto="fainted" />
+    <Anim id="faint" path="faint" delay="0.1" frames="0-10" goto="fainted" />
     <Loop id="fainted" path="faint" delay="0.1" frames="10" />
     <Anim id="flip" path="flip" delay="0.04" frames="0-7" goto="runFast"/>
     <Loop id="skid" path="flip" delay="0.04" frames="8"/>

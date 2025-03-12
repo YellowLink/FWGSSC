@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sprites>
+  <!-- The name should be: crystalHeart_CollabName_LobbyName -->
+
+  <!-- Lobby -->
+  <crystalHeart_FWGSSC_0_Lobbies_1_Lobby path="collectables/heartgem/2/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_0_Lobbies_1_Lobby>
+
+  <!-- Individual Maps -->
+  <crystalHeart_FWGSSC_1_Lobby_1_tntgobang path="CollabUtils2/miniHeart/bgr/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_1_tntgobang>
+
+  <crystalHeart_FWGSSC_1_Lobby_2_barndles path="FWGSSC/miniHeart/green/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_2_barndles>
+
+  <crystalHeart_FWGSSC_1_Lobby_3_cookie path="CollabUtils2/miniHeart/adv/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_3_cookie>
+
+  <crystalHeart_FWGSSC_1_Lobby_4_dragon512 path="CollabUtils2/miniHeart/gdm/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_4_dragon512>
+
+  <crystalHeart_FWGSSC_1_Lobby_5_jftyjghj path="CollabUtils2/miniHeart/gdm/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_5_jftyjghj>
+
+  <crystalHeart_FWGSSC_1_Lobby_6_kit path="CollabUtils2/miniHeart/adv/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_6_kit>
+
+  <crystalHeart_FWGSSC_1_Lobby_7_cameronc path="CollabUtils2/miniHeart/imd/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_7_cameronc>
+
+  <crystalHeart_FWGSSC_1_Lobby_8_apeirocell path="CollabUtils2/miniHeart/imd/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_8_apeirocell>
+
+  <crystalHeart_FWGSSC_1_Lobby_9_ravenjb path="CollabUtils2/miniHeart/imd/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_9_ravenjb>
+
+  <crystalHeart_FWGSSC_1_Lobby_10_schnippi path="CollabUtils2/miniHeart/imd/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_10_schnippi>
+
+  <crystalHeart_FWGSSC_1_Lobby_11_smileygrene path="CollabUtils2/miniHeart/bgr/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_11_smileygrene>
+
+  <crystalHeart_FWGSSC_1_Lobby_12_smiley path="FWGSSC/miniHeart/green/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_12_smiley>
+
+  <crystalHeart_FWGSSC_1_Lobby_13_spooooky path="FWGSSC/miniHeart/green/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_13_spooooky>
+
+  <crystalHeart_FWGSSC_1_Lobby_14_theegoober path="CollabUtils2/miniHeart/adv/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_14_theegoober>
+  
+  <crystalHeart_FWGSSC_1_Lobby_15_volan path="FWGSSC/miniHeart/green/" start="idle">
+    <Center />
+    <Loop id="idle" path="" frames="0" />
+    <Loop id="spin" path="" frames="0*10,1-10" delay="0.08"/>
+    <Loop id="fastspin" path="" frames="1-10" delay="0.08"/>
+  </crystalHeart_FWGSSC_1_Lobby_15_volan>
+</Sprites>
