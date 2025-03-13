@@ -1,6 +1,6 @@
 ﻿<Data>
 
-<Tileset id="y" path="subfolder/betterTemplate">
+  <Tileset id="y" path="subfolder/betterTemplate">
     <!-- edges -->
     <!-- top -->
     <set mask="x0x-111-x1x" tiles="6,5; 7,5; 8,5; 9,5"/>

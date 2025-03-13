@@ -1291,3 +1291,8 @@ Dang! Too slow!
 FWGSSC_DreamPurgatory_yay=
 [MADELINE left normal]
 Yay! Made it!
+
+# HeartSide ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+heartside_credits=
+Placeholder

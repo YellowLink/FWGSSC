@@ -989,19 +989,12 @@
       <Loop id="off" path="evil" frames="40" delay="0.06"/>
   </bumper_evil>
 
-  <badelineBoost path="objects/badelineBoost/" start="idle">
+  <badelineBoost path="objects/FWGSSC/AnEnormousSmileyFace/badelineBoost/" start="idle">
     <Justify x="0.5" y="0.5"/>
     <Anim id="idle" path="idle" frames="0-5" delay="0.08" goto="idle:10,flash:2,blink"/>
     <Anim id="flash" path="idle" frames="6-11" delay="0.08" goto="idle"/>
     <Anim id="blink" path="idle" frames="12-25" delay="0.08" goto="idle"/>
   </badelineBoost>
-
-  <buffyBoost path="objects/FWGSSC/AnEnormousSmileyFace/badelineBoost/" start="idle">
-    <Justify x="0.5" y="0.5"/>
-    <Anim id="idle" path="idle" frames="0-5" delay="0.08" goto="idle:10,flash:2,blink"/>
-    <Anim id="flash" path="idle" frames="6-11" delay="0.08" goto="idle"/>
-    <Anim id="blink" path="idle" frames="12-25" delay="0.08" goto="idle"/>
-  </buffyBoost>
 
   <fireball path="objects/fireball/" start="hot">
     <Center/>
