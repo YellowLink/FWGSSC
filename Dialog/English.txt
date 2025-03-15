@@ -1296,3 +1296,25 @@ Yay! Made it!
 
 heartside_credits=
 Placeholder
+
+heartside_flying_to_the_moon=
+		[BADELINE right concerned]
+		What the fuck are we doing here again, {+MADELINE}?
+
+		[MADELINE left normal]
+		Farewell golden.
+    
+		[BADELINE right worried]
+		{+MADELINE}, what are you talking about??
+
+		[MADELINE left normal]
+		Farewell golden.
+
+		[BADELINE right concerned]
+		This isn't even Farewell dumbass, just the mapper's cheap recreation of the intro screen.
+
+		[MADELINE left normal]
+		Celeste chapter 9 Farewell golden strawberry.
+
+		[BADELINE right angryAlt]
+		You need help.

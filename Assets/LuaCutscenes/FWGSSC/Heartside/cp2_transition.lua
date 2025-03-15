@@ -9,7 +9,7 @@ function onBegin()
     waitUntilBreaker()
     setFlag("slowdown", true)
     coroutine.yield(level:ZoomTo(vector2(160, 120), 2, 0.3))
-    instantTeleportTo(4088, -2772, "b-00")
+    instantTeleportTo(4165, -2858, "b-00")
 end
 
 function onEnd()
