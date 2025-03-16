@@ -1,6 +1,6 @@
 - DLL: Code/FWGSSC.dll
   Name: FWGSSC
-  Version: 0.3.3
+  Version: 0.3.4
   Dependencies:
     - Name: AdventureHelper
       Version: 1.5.8
