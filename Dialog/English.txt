@@ -144,6 +144,8 @@ kity :D
 
 # The Fallen Leaves Tell a Story ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+FWGSSC_ravenJB_SpeedReverseTutorial= Speed Reverse
+
 FWGSSC_ravenJB_Percy1_intro=
 [PERCY right nosy]
 Hiya! What are you doing here?
